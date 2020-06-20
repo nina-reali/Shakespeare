@@ -1,0 +1,427 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    background-color: #f5f5f5;
+    padding: 0;
+    margin: 0;
+}
+
+
+/* globais */
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+body::-webkit-scrollbar {
+    width: 0.6rem;
+}
+
+body::-webkit-scrollbar-track {
+    background: #d7eaea;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: #69779b;
+}
+
+
+/* cabeçalho */
+
+.header {
+    background: #69779b;
+    color: #d7eaea;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #acdbdf 5px double;
+}
+
+.header a {
+    color: #d7eaea;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+.header li {
+    float: left;
+    display: inline;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.header .title-header {
+    float: left;
+}
+
+.header .title-header h1 {
+    margin: 0;
+    font-weight: bold;
+}
+
+.nav {
+    float: right;
+    margin-top: 10px;
+}
+
+.header .current a {
+    color: #dacbf1;
+    font-weight: bold;
+}
+
+
+/* home page */
+
+.showcase {
+    min-height: 400px;
+    background: url('img/livros.png') no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: #d7eaea;
+    border-bottom: #acdbdf 5px double;
+}
+
+.showcase h1 {
+    font-size: 80px;
+    margin-top: 130px;
+    margin-bottom: 10px;
+    font-family: vivaldi;
+    color: #acdbdf;
+}
+
+.showcase p {
+    font-size: 20px;
+}
+
+.new {
+    background-color: #69779b;
+    padding: 15px;
+    border-bottom: #acdbdf 5px double;
+    color: #d7eaea;
+}
+
+.box .box-item {
+    width: 30%;
+    float: left;
+    text-align: center;
+    padding: 10px;
+    color: #9692af;
+}
+
+.box .box-item h3 {
+    color: #69779b;
+}
+
+.box .box-item img {
+    width: 90px;
+}
+
+
+/* Footer */
+
+.footer {
+    text-align: center;
+    color: #ffffff;
+    padding: 27px;
+    background-color: #69779b;
+    margin-top: 20px;
+    border-top: #acdbdf 5px double;
+}
+
+
+/* cardapio */
+
+.menu .cardapio img {
+    width: 68%;
+    margin-top: 20px;
+    margin-left: 15%;
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+/* sobre */
+
+.main .container .about {
+    display: inline-block;
+}
+
+.main .container .about .caixa1 {
+    background-color: #d7eaea;
+    height: 10%;
+    width: 30%;
+    float: left;
+    margin-top: 40px;
+    border-radius: 10px;
+    margin-right: 10%;
+    margin-left: 15%;
+    border-bottom: #9692af 5px double;
+    ;
+}
+
+.main .container .about .caixa1 h3 {
+    color: #69779b;
+    text-align: center;
+}
+
+.main .container .about .caixa1 p {
+    padding-left: 20px;
+}
+
+.main .container .about .caixa2 {
+    background-color: #acdbdf;
+    height: 10%;
+    width: 30%;
+    float: right;
+    margin-top: 40px;
+    border-radius: 10px;
+    margin-right: 10%;
+    margin-right: 15%;
+    border-bottom: #9692af 5px double;
+    ;
+}
+
+.main .container .about .caixa2 h3 {
+    color: #69779b;
+    text-align: center;
+}
+
+.main .container .about .caixa2 p {
+    padding-left: 20px;
+}
+
+.main .container .about .caixa3 {
+    background-color: #acdbdf;
+    height: 10%;
+    width: 30%;
+    float: left;
+    margin-top: 40px;
+    border-radius: 10px;
+    margin-right: 10%;
+    margin-left: 15%;
+    border-bottom: #9692af 5px double;
+    margin-bottom: 13px;
+}
+
+.main .container .about .caixa3 h3 {
+    color: #69779b;
+    text-align: center;
+}
+
+.main .container .about .caixa3 p {
+    padding-left: 20px;
+}
+
+.main .container .about .caixa4 {
+    background-color: #d7eaea;
+    height: 10%;
+    width: 30%;
+    float: right;
+    margin-top: 40px;
+    border-radius: 10px;
+    margin-right: 10%;
+    margin-right: 15%;
+    border-bottom: #9692af 5px double;
+    margin-bottom: 13px;
+}
+
+.main .container .about .caixa4 h3 {
+    color: #69779b;
+    text-align: center;
+}
+
+.main .container .about .caixa4 p {
+    padding-left: 20px;
+    padding-right: 10px;
+}
+
+
+/* acervo */
+
+.box .box-li {
+    width: 30%;
+    float: left;
+    text-align: center;
+    padding: 10px;
+    color: #9692af;
+    margin-top: 10px;
+}
+
+.box .box-li h3 {
+    color: #69779b;
+}
+
+.box .box-li img {
+    width: 107px;
+    height: 151px;
+}
+
+.box .box-li img:hover {
+    opacity: 0.10;
+}
+
+
+/* acervo individual */
+
+.box .ind img {
+    width: 15%;
+    height: 10%;
+    float: left;
+    margin-top: 10%;
+}
+
+.box .ind .info {
+    background-color: #ffffff;
+    margin: auto;
+    width: 45%;
+    margin-top: 10%;
+    float: left;
+    padding-left: 60px;
+    border-radius: 4px;
+    margin-left: 7%;
+    border-bottom: #acdbdf 5px double;
+}
+
+.box .ind .info h2 {
+    color: #69779b;
+    /* margin-top: 10%; */
+}
+
+.box .ind .info p {
+    width: 80%;
+    height: 50%;
+    text-align: justify;
+    margin-top: 10px;
+}
+
+.box .ind .res {
+    float: right;
+    width: 20%;
+    background-color: #ffffff;
+    height: 380px;
+    margin-top: 10%;
+    border-radius: 4px;
+    border-bottom: #acdbdf 5px double;
+}
+
+.box .ind .res h2 {
+    color: #69779b;
+    text-align: center;
+}
+
+.box .ind .res p {
+    width: 80%;
+    height: 50%;
+    text-align: justify;
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+.box .ind .res .botao-s {
+    background: #acdbdf;
+    height: 30px;
+    color: #9692af;
+    width: 80%;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+
+/* login */
+
+.box .container .login input {
+    padding: 4px;
+    height: 20px;
+    width: 80%;
+    border: 2px solid #9692af;
+    border-radius: 4px;
+}
+
+.box .container .login {
+    width: 40%;
+    background-color: #69779b;
+    height: 460px;
+    margin: auto;
+    border-bottom: #acdbdf 5px double;
+    text-align: center;
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.box .container .login .botao-s {
+    background: #acdbdf;
+    height: 30px;
+    border: none;
+    color: #9692af;
+    width: 80%;
+    margin-top: 75px;
+}
+
+.box .container .login h1 {
+    padding: 10px;
+    color: #d7eaea;
+}
+
+.box .container .login p {
+    color: #d7eaea;
+    padding: 15px;
+}
+
+.box .container .login a {
+    text-decoration: none;
+    color: #acdbdf;
+}
+
+.box .container .login a:hover {
+    color: #f5f5f5;
+}
+
+
+/* cadastro */
+
+.box .container .cad {
+    width: 40%;
+    background-color: #69779b;
+    height: 550px;
+    margin: auto;
+    border-bottom: #acdbdf 5px double;
+    text-align: center;
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.box .container .cad h1 {
+    padding: 15px;
+    color: #d7eaea;
+}
+
+.box .container .cad p {
+    color: #d7eaea;
+    padding: 15px;
+}
+
+.box .container .cad input {
+    padding: 2px;
+    height: 20px;
+    width: 80%;
+    border: 2px solid #9692af;
+    border-radius: 4px;
+}
+
+.box .container .cad .botao-s {
+    background: #acdbdf;
+    height: 30px;
+    border: none;
+    color: #9692af;
+    width: 80%;
+    margin-top: 50px;
+}
